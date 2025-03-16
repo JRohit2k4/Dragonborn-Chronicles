@@ -1,6 +1,6 @@
-# 🐉 Dragonborn Chronicles: A Skyrim-Based RPG
+# 🐉 Skyrealm: A Skyrim-Based RPG
 
-Welcome to **Dragonborn Chronicles: A Skyrim-Based RPG**! 🎮 This interactive text-based adventure lets you shape your own story, inspired by the legendary world of **The Elder Scroll V - Skyrim**. Choose your race, interact with characters, and make decisions that will define your journey!
+Welcome to **Skyrealm: A Skyrim-Based RPG**! 🎮 This interactive text-based adventure lets you shape your own story, inspired by the legendary world of **The Elder Scroll V - Skyrim**. Choose your race, interact with characters, and make decisions that will define your journey!
 
 ## ✨ Features
 - 🏹 **Choose Your Race** – Play as a Nord, Khajiit, Elf, or more, each with unique abilities.
@@ -8,21 +8,6 @@ Welcome to **Dragonborn Chronicles: A Skyrim-Based RPG**! 🎮 This interactive 
 - ⚔️ **Engaging Combat** – Experience interactive text-based battles and tactical decision-making.
 - 🌍 **Explore a Rich World** – Navigate diverse locations filled with quests and hidden secrets.
 - 🛠️ **Dynamic Progression** – Upgrade your skills, manage inventory, and shape your character's destiny.
-
-## 🎮 How to Play
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/skyrim-text-rpg.git
-   ```
-2. Navigate to the game directory:
-   ```sh
-   cd skyrim-text-rpg
-   ```
-3. Run the game using Python:
-   ```sh
-   python game.py
-   ```
-4. Follow the on-screen prompts, choose wisely, and embark on an epic adventure!
 
 ## 🔥 Planned Features
 ✅ 🏹 Race-specific abilities and perks  
