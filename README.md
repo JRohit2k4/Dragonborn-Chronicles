@@ -19,7 +19,7 @@ Welcome to **Skyrealm: A Skyrim-Based RPG**! 🎮 This interactive text-based ad
 ✅ 🌍 New locations, NPC interactions, and surprises!  
 
 ## ⚠️ Disclaimer
-This project is a **fan-made** text-based RPG inspired by Skyrim. It is **not** affiliated with, endorsed, or sponsored by Bethesda Softworks. All dialogues and story elements are rewritten to avoid copyright issues. This project is free and for educational purposes only.
+This project is a **fan-made** text-based RPG inspired by **The Elder Scroll V - Skyrim**. It is **not** affiliated with, endorsed, or sponsored by Bethesda Softworks. All dialogues and story elements are rewritten to avoid copyright issues. This project is free and for educational purposes only.
 
 ## 🤝 Contributing
 Want to expand the adventure? Contribute by adding new quests, characters, or gameplay mechanics! Fork the repository and submit a pull request. 🚀
