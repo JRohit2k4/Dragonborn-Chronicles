@@ -35,7 +35,7 @@ except ValueError:
 
 print("\n\n====== Arrived at Helgen ======")
 time.sleep(3)
-print("SCENE: Getting ready for execution")
+print("\mSCENE: Getting ready for execution")
 time.sleep(2)
 print("\nImperial Soldier: What is your race")
 time.sleep(2)
