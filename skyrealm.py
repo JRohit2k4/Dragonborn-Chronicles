@@ -71,3 +71,30 @@ except ValueError:
 name = input("\nImperial Soldier: What is your name: ")
 time.sleep(1)
 print(f"\nImperial Soldier: {name} the {race}, huh? Another prisoner for the list.")
+
+
+print("\n====== Chaos Unleashed ======")
+
+print("\nThe sky, once clear, now swirls with thick black smoke as shadows dance across the ground.")
+
+print("\nA deafening roar pierces the air, sending chills down your spine.")
+
+print("\nThe wind picks up suddenly, dust and ash blinding your vision. The ground beneath you trembles violently.")
+
+print('\nA deep, guttural growl rumbles from above…')
+
+print('\nAlduin(Dragon): "VEN MUL RIIK!"')
+
+print("\nA monstrous shadow engulfs the town as massive wings beat against the air, sending townspeople and soldiers into panic.")
+
+print("\nThe dragon lands atop the tower with an earth-shattering crash, stone crumbling beneath its weight.")
+
+print("\nAlduin rears his head, his scales glistening in the firelight, eyes burning with ancient fury.")
+
+print('\nAlduin (Dragon): "ROOOAAARRR!"')
+
+print("\nA torrent of flame erupts from its jaws, consuming everything in its path.")
+
+print("\nScreams of villagers and soldiers mix with the roar of the inferno. Chaos reigns.")
+
+print("\nRalof: \"By the gods... It's really happening! We need to move! NOW!\"")
