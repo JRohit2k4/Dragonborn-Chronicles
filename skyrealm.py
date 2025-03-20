@@ -74,27 +74,39 @@ print(f"\nImperial Soldier: {name} the {race}, huh? Another prisoner for the lis
 
 
 print("\n====== Chaos Unleashed ======")
+#time.sleep(1)
 
 print("\nThe sky, once clear, now swirls with thick black smoke as shadows dance across the ground.")
+#time.sleep(2)
 
 print("\nA deafening roar pierces the air, sending chills down your spine.")
+#time.sleep(2)
 
 print("\nThe wind picks up suddenly, dust and ash blinding your vision. The ground beneath you trembles violently.")
+#time.sleep(3)
 
 print('\nA deep, guttural growl rumbles from above…')
+#time.sleep(2)
 
 print('\nAlduin(Dragon): "VEN MUL RIIK!"')
+#time.sleep(1.5)
 
 print("\nA monstrous shadow engulfs the town as massive wings beat against the air, sending townspeople and soldiers into panic.")
+#time.sleep(3)
 
 print("\nThe dragon lands atop the tower with an earth-shattering crash, stone crumbling beneath its weight.")
+#time.sleep(3)
 
 print("\nAlduin rears his head, his scales glistening in the firelight, eyes burning with ancient fury.")
+#time.sleep(3)
 
 print('\nAlduin (Dragon): "ROOOAAARRR!"')
+#time.sleep(2)
 
 print("\nA torrent of flame erupts from its jaws, consuming everything in its path.")
+#time.sleep(3)
 
 print("\nScreams of villagers and soldiers mix with the roar of the inferno. Chaos reigns.")
+#time.sleep(3)
 
 print("\nRalof: \"By the gods... It's really happening! We need to move! NOW!\"")
