@@ -35,7 +35,7 @@ except ValueError:
 
 print("\n\n====== Arrived at Helgen ======")
 time.sleep(3)
-print("\mSCENE: Getting ready for execution")
+print("\nSCENE: Getting ready for execution")
 time.sleep(2)
 print("\nImperial Soldier: What is your race")
 time.sleep(2)
@@ -70,7 +70,7 @@ except ValueError:
 
 name = input("\nImperial Soldier: What is your name: ")
 time.sleep(1)
-print(f"\nImperial Soldier: {name} the {race}, huh? Another prisoner for the list.")
+print(f"\nImperial Soldier: {name.capitalize()} the {race}, huh? Another prisoner for the list.")
 
 #Entry of Alduin the Dragon:-
 print("\n====== Chaos Unleashed ======")
@@ -110,3 +110,46 @@ print("\nScreams of villagers and soldiers mix with the roar of the inferno. Cha
 time.sleep(3)
 
 print("\nRalof: \"By the gods... It's really happening! We need to move! NOW!\"")
+time.sleep(3)
+
+print("\n*Soldiers starts to attack the dragon*")
+time.sleep(3)
+
+# Choice of faction
+while True:
+    print("\nGo to hideout inside tower")
+    print("\nSelect which side you want to be on: ")
+    print("\n1. Join the Imperials\n2. Follow Ralof (Stormcloaks)\n3. Find your own way (Not recommended)")
+    
+    try:
+        sidewith_choice = int(input("Choose an option (1/2/3): "))  # Convert input to integer
+        if sidewith_choice == 1:
+            sidewith = "Imperials"
+            print("\nImperial Soldier: Good choice! Stick with us, and we’ll get you out of here alive!")
+            time.sleep(2)
+            break  # Exit loop
+        elif sidewith_choice == 2:
+            sidewith = "Stormcloaks"
+            print("\nRalof: We need to stick together! Come on, let's move!")
+            time.sleep(2)
+            break  # Exit loop
+        elif sidewith_choice == 3:
+            print("\nYou attempt to escape alone, running through the fire and smoke...")
+            time.sleep(3)
+            print("\nAlduin notices you and locks his gaze upon you...")
+            time.sleep(3)
+            print("\nBefore you can react, a torrent of fire engulfs you.")
+            time.sleep(3)
+            print("\nYOU DIED.")
+            time.sleep(3)
+            print("\nChoose wisely this time.")
+            time.sleep(2)
+        else:
+            print("\nInvalid choice. Pick again.")
+            time.sleep(2)
+    except ValueError:
+        print("\nInvalid input. Choose 1 or 2.")
+        time.sleep(2)
+
+print(f"\nYour journey continues as {name.capitalize()} the {race}, who side with {sidewith}.")
+time.sleep(2)
