@@ -154,6 +154,8 @@ while True:
             time.sleep(2)
             save = int(input("\nChoose your action: \n(1.Help him) \n(2.Leave him)"))
             time.sleep(2)
+
+            #first fight save or leave Ralof
             if save == 1:
                 save = "1"
                 print(f"\nRalof: There, you have a spirit of a {race}")
