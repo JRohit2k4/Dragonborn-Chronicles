@@ -146,33 +146,37 @@ while True:
             print("\nYou got Steel sword(damage: 12) \nYou got Steel armor(armor: 11) \nYou got Steel helmet(armor: 6) \nYou got Steel boots(armor: 6)")
             time.sleep(2)
             print("\nLevel Increased 1-->2")
+            # First fight scenario
             print("\nImperial soldier: Hey you two, you cannot escape.")
             time.sleep(2)
             print("\nRalof attack that soldier with his sword.")
             time.sleep(2)
-            print("\nHelp him or left him alone:")
-            time.sleep(2)
-            save = int(input("\nChoose your action: \n(1.Help him) \n(2.Leave him)"))
-            time.sleep(2)
+            while True:
+                save = input("\nHelp Ralof or leave him alone? (1. Help / 2. Leave): ").strip()
+                if save == "1":
+                    print(f"\nRalof: There, you have the spirit of a {race}!")
+                    time.sleep(2)
+                    print("\nYou both killed the Imperial soldier.")
+                    time.sleep(2)
+                    print("\nLevel increased 2-->3")
+                    time.sleep(2)
+                    print("\n#You both escape the tower.#")
+                    time.sleep(2)
+                    break
+                elif save == "2":
+                    print("\nRalof: Hey where are you going?...")
+                    time.sleep(2)
+                    print("\nRalof: AAAAHH")
+                    time.sleep(2)
+                    print("\nRalof got overwhelmed and killed.")
+                    time.sleep(2)
+                    print("\nYour cowardice will be remembered...")
+                    break
+                else:
+                    print("\nInvalid choice. Try again.")
+            break  # Exit loop            
 
-            #first fight save or leave Ralof
-            if save == 1:
-                save = "1"
-                print(f"\nRalof: There, you have a spirit of a {race}")
-                time.sleep(2)
-                print("\nYou both killed Imperial soldier")
-                time.sleep(2)
-                print("\nLevel increased 2-->3")
-                time.sleep(2)
-            else:
-                sidewith = "2"
-                print("\nRalof: Hey where are you going?...")
-                time.sleep(2)
-                print("\nRalof: AAAAHH")
-                time.sleep(2)
-                print("\nRalof got overhelmed and killed.")
-                time.sleep(2)               
-            break  # Exit loop
+        
         elif sidewith_choice == 3:
             print("\nYou attempt to escape alone, running through the fire and smoke...")
             time.sleep(3)
